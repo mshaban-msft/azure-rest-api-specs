@@ -779,7 +779,7 @@
     "MultiClassificationDocumentResult": {
       "type": "object",
       "properties": {
-        "classs": {
+        "class": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/ClassificationResult"
@@ -792,7 +792,7 @@
         }
       ],
       "required": [
-        "classs"
+        "class"
       ]
     },
     "HealthcareTaskParameters": {
